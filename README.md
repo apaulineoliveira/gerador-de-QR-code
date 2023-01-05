@@ -4,3 +4,4 @@
 <li>A API proporcionou que fosse criado o gráfico e a seguinte inclusão dos mesmos, além disso, a mesma possui um parâmetro específico para a criação de charts do tipo QR Code.</li>
 
 <h1>In English</h1>
+<p>The purpose of this project was to create from the url sent by the user its respective QR Code. For the elaboration of this project, HTML, pure CSS and Javascript were used. I opted to make use of an API/CDN in order to increase page loading speed and, thinking about future contexts, the advantage of being able to withstand heavy traffic.</p>
