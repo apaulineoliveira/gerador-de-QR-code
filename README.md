@@ -1,5 +1,4 @@
- <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" height="30" width="30"/>
+<img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" height="30" width="30"/>
 
-<h1 align="center">Objetivo</h1>
-  <p>O intuito deste projeto foi gerar a partir da url enviada pelo usuário o seu respectivo QR Code. Para a elaboração desse projeto foi utilizado html, css puro e Javascript; Optei em fazer uso de uma API/CDN com o intuito de aumentar a velocidade de carregamento da página e, pensando em contextos futuros, a vantagem de ter a capacidade de aguentar tráfegos intensos.<br></br>A API proporcionou que fosse criado o gráfico e posteriormente a inclusão dos mesmos, além disso, possui um <b>parâmetro específico</b> para a criação de charts do tipo QR Code.</p>
-
+<h1 align="center">Goal</h1>
+   <p>The goal of this project was to generate the respective QR Code from the url sent by the user. For the elaboration of this project, html, pure css and Javascript were used; I opted to make use of an API/CDN in order to increase page loading speed and, thinking about future contexts, the advantage of being able to withstand intense traffic.<br></br>The API provided that it was created the chart and later the inclusion of the same, in addition, it has a <b>specific parameter</b> for the creation of QR Code type charts.</p>
