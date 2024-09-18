@@ -1,68 +1,171 @@
 body {
-    background-color: rgb(246, 246, 246);
+    background-color: #EDEEF0;
 }
+
 form {
     font-family: sans-serif;
     max-width: 400px;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: center;
     padding: 20px;
-    background: white;    
+    
 }
+
 .form h1 {
-    background-color: rgb(9, 61, 125); 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    padding: 100px 0;    
+    background-color: #EDEEF0; 
+    font-family: 'poppins';
+    font-size: 18px;
+    padding: 10px 0;    
     text-align: center;
-    color: #fff;
+    color: #413643;
 }
+
+.qr-animation {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+    background: url('https://cdn.pixabay.com/photo/2016/03/31/18/16/attack-1294254_1280.png') no-repeat center;
+    background-size: contain;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.6);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(200, 200, 200, 0.6);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(200, 200, 200, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(200, 200, 200, 0.6);
+    }
+}
+
 .form input[type="text"],
 .form input[type="url"] {
     box-sizing: border-box;
     width: 100%;
     background: #fff;
     margin-bottom: 4%;
-    border: 1px solid #ccc;    
+    border: 1px solid #ccc;   
+    border-radius: 99px; 
     padding: 4%;
     font-size: 17px;
-    color: rgb(9, 61, 125);   
+    color: #413643;
 }
+
 .form input[type="text"]:focus,
 .form input[type="url"]:focus {
-    box-shadow: 0 0 5px #5868bf;
     padding: 4%;
-    border: 1px solid #5868bf;
+    border: 2px solid #9A8D86; 
+    outline: none;
 }
+
 .form button {
    box-sizing: border-box; 
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
    width: 180px;
-   margin: 0 auto;
-   padding: 3%;
-   background: #0853b6;
+   width: 100%; 
+    padding: 4%;
+   background: #72676F;
    border: none;
-   border-radius: 3px;
+   border-radius: 99px;
    font-size: 17px;
-   border-top-style: none;
-   border-right-style: none;
-   border-left-style: none;
    color: #fff;
    cursor: pointer;
+   margin-bottom: 4%;
 }
+
 .form button:hover {
-    background: rgba(88, 104, 191, 0.5);
+    background: #9A8D86;
 }
-#qrcode-container{
+
+#qrcode-container {
     display: none;
 }
-.qrcode{
+
+.qrcode {
     padding: 16px;
     margin-bottom: 30px;
 }
-.qrcode img{
+
+.qrcode img {
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
     padding: 4px;
+}
+
+#card {
+    font-family: poppins;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 20px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.6);
+}
+
+#custom-alert {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.alert-content {
+    background-color: #f6f6f6; 
+    color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.alert-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.icon-yellow {
+    color: rgba(217, 165, 11, 0.977);
+}
+
+.alert-content button {
+    background-color: #72676F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.alert-content button:hover {
+    background-color: #9A8D86; 
+}
+
+h3 i {
+    margin-right: 8px;
 }
