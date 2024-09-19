@@ -1,5 +1,5 @@
-<h1>Projeto</h1>
-<p>https://gerador-qr-code-made-in-js.netlify.app/</p>
+
+<h2>https://gerador-qr-code-made-in-js.netlify.app/</h2>
 
 <p>
   <img src="./tela-inicial.png" alt="Tela inicial" width="500" />
