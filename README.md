@@ -1,5 +1,7 @@
 
-<h2>https://gerador-qr-code-made-in-js.netlify.app/</h2>
+<p>https://gerador-qr-code-made-in-js.netlify.app/</p>
+
+##
 
 <p>
   <img src="./assets/img/tela-inicial.png" alt="Tela inicial" width="500" />
